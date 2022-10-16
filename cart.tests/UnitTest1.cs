@@ -52,6 +52,6 @@ public class Tests
         checkout.Scan(B15);
         checkout.Scan(B15);
         double result = checkout.GetTotal();
-        Assert.AreEqual(0.45, result);
+        Assert.AreEqual(0.55, result);
     }
 }
